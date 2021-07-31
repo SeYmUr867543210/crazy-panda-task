@@ -1,0 +1,61 @@
+#justWord {
+    position: absolute;
+    left: 20;
+    top: 0;
+    background: white;
+}
+#btnCointainer {
+    border: 3px solid #A2A2A2;
+    width: 100%;
+    height: 50px;
+}
+#colorBtn {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    width: 75px;
+    height: 30px;
+    margin-top: 10px; 
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+#backgroundColorBtn {
+    margin-top: 10px; 
+    width: 170px;
+    height: 30px;
+    font-size: 20px;
+}
+#backgroundColorBtn:hover, #colorBtn:hover {
+    color: white;
+    background: blue;
+}
+#colorsContainer {
+    clear: left;
+    margin-right: 30px;
+    width: 250px;
+    height: 75px;
+    float: left;
+}
+#redColor {
+    background: red;
+    width: 250px;
+    margin-bottom: 15px;
+}
+#greenColor {
+    background: green;
+    width: 250px;
+    margin-bottom: 15px;
+}
+#blueColor {
+    background: blue;
+    width: 250px
+}
+#textarea {
+    float: left;
+    margin-top: -10px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    background: #F0F2FF;
+}
